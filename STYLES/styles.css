@@ -101,10 +101,30 @@ ul {
 }
 
 /* Main section styles */
+main{
+    max-width: 1140px;
+    margin:0px auto;}
 .about {
     background-color: bisque;
 
     margin: 80px;
     padding: 131px;
     border-radius: 10px;
+}
+.section-description{
+    text-align: center;
+
+}
+.about-info-container{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    text-align: center;}
+h4 .about-title{
+    margin-bottom: 0;
+
+}
+
+p .about-description{
+    padding-top: 10px;
 }
