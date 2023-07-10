@@ -128,3 +128,44 @@ h4 .about-title{
 p .about-description{
     padding-top: 10px;
 }
+/* SkillS related Styles */
+.skills-contant{
+    
+    display: flex;
+    justify-content: space-around;
+    max-width:1140px;
+    gap: 30px;
+
+}
+.skill-item{
+    
+    
+    padding: 20px 30px;
+    box-shadow: 5px 5px 5px 3px;
+
+    
+}
+.skill-description{
+}
+/* Summary section related stylas */
+.summary{
+    padding: 30px;
+}
+.summary-columes{
+    display: flex;
+    gap: 20px;
+
+}
+section{
+    padding: 50px 0px;
+}
+.resume-container{
+    display: flex;
+    gap:50px;
+
+
+    
+}
+.resume-columes{
+    
+}
