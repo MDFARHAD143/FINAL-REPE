@@ -63,10 +63,14 @@ ul {
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-image: url('../images/developer.png');
+    background-position: bottom left;
+
 
 
 
 }
+
 
 .banner {
     padding: 30px 20px 0px 150px;
@@ -168,4 +172,53 @@ section{
 }
 .resume-columes{
     
+}
+.resume-description{
+    color: #7575757;
+}
+.resume-heading{
+    font-size: 25px;
+   
+
+}
+
+
+.resume-sub{
+    color: #7575757;
+    font-size:20px;
+   
+
+}
+.cv-down-bnt{
+    text-align: center;
+}
+.footer{
+    background-color: bisque;
+
+
+}
+.footer-container{
+    display: flex;
+    gap:100px;
+    padding: 200px;
+    margin-top: 30px;
+}
+
+.footer-item img {
+    padding: 20px 10px;
+}
+.submit{
+    /* text-align: center; */
+    padding-top: 16px;
+}
+.footer-columes{
+    width: 50%;
+}
+.footer-item input, textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding:30px 0px 30px 20px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
 }
